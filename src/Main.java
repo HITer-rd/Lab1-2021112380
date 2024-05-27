@@ -29,7 +29,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String myName = "Nunisey";
-        String myMate = "Wangyu";
+        String myID = "2021112380";
         String fileName = "input.txt";
         List<String> words = readWordsFromFile(fileName);
         Graph = buildGraph(words);
