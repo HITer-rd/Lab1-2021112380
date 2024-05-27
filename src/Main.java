@@ -28,6 +28,7 @@ public class Main {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
+        String myName = "Nunisey";
         String fileName = "input.txt";
         List<String> words = readWordsFromFile(fileName);
         Graph = buildGraph(words);
